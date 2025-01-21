@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <script src="script.js"></script>
+    <header>
+        <h1>Cardápio</h1>
+    </header>
+    <main>
+        <table id="menu-table">
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Descrição</th>
+                    <th>Preço</th>
+                    <th>Quantidade</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <button id="checkout-button">Fechar Pedido</button>
+        <section id="order-summary" style="display: none;">
+            <h2>Resumo do Pedido</h2>
+            <ul id="selected-products"></ul>
+            <p id="total-price"></p>
+        </section>
+    </main>
+</body>
+</html>
